@@ -26,8 +26,8 @@ const Navbar = () => {
 
                 <div className={styles.rightnav}>
                     <Link href="/" className={styles.navlink}><h3>Home</h3></Link>
-                    <Link href="/" className={styles.navlink}><h3>Gallery</h3></Link>
-                    <Link href="/" className={styles.navlink}><h3>Booking &#38; Enquiries</h3></Link>
+                    <Link href="/gallery" className={styles.navlink}><h3>Gallery</h3></Link>
+                    <Link href="/booking" className={styles.navlink}><h3>Booking &#38; Enquiries</h3></Link>
                 </div>
             </nav>
         </>

@@ -1,0 +1,93 @@
+.gallerybanner {
+    margin: 0;
+    padding: 0;
+    background: url('../public/gallery/G4 First Floor Living Room Banner.jpg');
+    box-shadow: inset 0 0 0 2000px rgb(0, 0, 0, 0.5);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* min-height: 100%; */
+    height: 800px;
+    width: 100%;
+    display: grid;
+    place-content: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-family: Araboto;
+}
+
+.galcaption {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.link:hover {
+    text-decoration: underline;
+    color: var(--grey);
+}
+
+
+.galcaption h1,
+.galcaption h3,
+.galcaption h5 {
+    line-height: 1.4;
+}
+
+
+.gallerygrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: var(--darkergrey);
+}
+
+.gridg4 {
+    display: grid;
+    grid-template-columns: (1, 1fr);
+    grid-template-rows: repeat(15, auto);
+    padding: 5%;
+    grid-row-gap: 25px;
+}
+
+.gridg5 {
+    display: grid;
+    grid-template-columns: (1, 1fr);
+    grid-template-rows: repeat(15, auto);
+    padding: 5%;
+    grid-row-gap: 25px;
+}
+
+.gridg4 h2,
+.gridg5 h2,
+.gazebogrid h2 {
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    line-height: 1.4;
+    text-decoration: var(--grey) underline double;
+    /*double underlining*/
+}
+
+.gazebogrid {
+    background-color: var(--darkergrey);
+    display: grid;
+    grid-template-columns: (1, 1fr);
+    grid-template-rows: repeat(5, auto);
+    justify-content: center;
+    grid-row-gap: 25px;
+    border: none;
+    padding-bottom: 25px;
+}
+
+.galgradient {
+    background: rgb(191, 191, 191);
+    background: linear-gradient(0deg, rgb(0, 0, 0) 35%, rgba(128, 128, 128, 1) 100%);
+}

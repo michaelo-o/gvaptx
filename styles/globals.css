@@ -20,3 +20,7 @@
   src: url('../fonts/Araboto/Araboto\ Normal\ 400.ttf');
   src: url('../fonts/Araboto/Araboto\ Thin\ 400.ttf');
 }
+
+.und{
+  text-decoration: underline;
+}

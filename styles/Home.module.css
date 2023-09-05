@@ -1,13 +1,14 @@
 .banner {
     margin: 0;
     padding: 0;
-    background: url('../public/G5\ Ground\ Floor\ Banner.jpg');
+    background: url('../public/home/G5\ Ground\ Floor\ Banner.jpg');
     box-shadow: inset 0 0 0 2000px rgb(0, 0, 0, 0.5);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     /* min-height: 100%; */
     height: 800px;
+    width: 100%;
     display: grid;
     place-content: center;
     top: 0;
@@ -28,7 +29,7 @@
     color: var(--white);
 }
 
-.link:hover{
+.link:hover {
     text-decoration: underline;
     color: var(--grey);
 }
@@ -44,7 +45,7 @@
     display: grid;
     background-color: var(--darkergrey);
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(7, 500px);
+    grid-template-rows: repeat(7, auto);
     place-items: center;
     color: white;
 }
