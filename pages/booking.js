@@ -34,7 +34,7 @@ const BookingAndEnquiries = () => {
                         <p>&#40;Click to open in Socials&#41;</p>
                     </div>
                 </div>
-                <h1>We're looking forward to Having you over at our Apartments. <FaHome /></h1>
+                <h1>We&apos;re looking forward to Having you over at our Apartments. <FaHome /></h1>
             </div>
         </>
     );
